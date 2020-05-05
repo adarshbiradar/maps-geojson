@@ -6,14 +6,18 @@ checkout the maps ploted using these geojsons on https://www.coronaindia.ml/
 ## Ploting maps using highmaps and geojson
 
 ```javascript
-    var statename = "karnataka"
+    var statename = "India"
     var statekey = statename.toLowerCase().replace(/ /g,"")
-    loadJson('/states/'+statekey+'.json',function(geojson){
-        mapFunction(geojson);
+    loadJson(statekey+'.json',function(geojson){
+       mapFunction(geojson);
     });
 ```
 format of mapdata 
 [['statename',value],['statename',value],....]
+
+for statemaps change 
+1. keys: ['st_nm', 'value'], to ['district','value'] 
+2. joinBy: 'st_nm' to 'district'
 ```javascript
     
     function mapFunction(geojson)
@@ -66,4 +70,14 @@ format of mapdata
         series: series,
     });
 }
+```
+```html
+<html>
+    <head>
+        <title>Document</title>
+    <head>
+    <body>
+        <div class='india-map'></div>
+    <body>
+<html>
 ```
