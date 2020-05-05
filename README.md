@@ -1,7 +1,7 @@
 # maps
 ## Geojsons of India and States, union territories of India
 
-checkout the maps ploted using these geojsons on https:/www.coronaindia.ml/
+checkout the maps ploted using these geojsons on https://www.coronaindia.ml/
 
 ## Ploting maps using highmaps and geojson
 
