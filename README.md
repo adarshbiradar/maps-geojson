@@ -3,6 +3,13 @@
 
 checkout the maps ploted using these geojsons on https://www.coronaindia.ml/
 
+
+#### India map
+![India map]("https://github.com/adarshbiradar/maps/blob/master/etc/indiamap.png?raw=true")
+
+#### Karnataka map
+![Karnataka map]("https://github.com/adarshbiradar/maps/blob/master/etc/karnatakamap.png?raw=true")
+
 ## Ploting maps using highmaps and geojson
 
 # html
