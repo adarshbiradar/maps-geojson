@@ -5,6 +5,20 @@ checkout the maps ploted using these geojsons on https://www.coronaindia.ml/
 
 ## Ploting maps using highmaps and geojson
 
+# html
+```html
+<html>
+    <head>
+        <title>Document</title>
+    <head>
+    <body>
+        <div class='india-map'></div>
+    <body>
+    <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+<html>
+```
+
+# JS
 ```javascript
     var statename = "India"
     var statekey = statename.toLowerCase().replace(/ /g,"")
@@ -71,13 +85,11 @@ for statemaps change
     });
 }
 ```
-```html
-<html>
-    <head>
-        <title>Document</title>
-    <head>
-    <body>
-        <div class='india-map'></div>
-    <body>
-<html>
+
+# CSS
+```css
+.india-map {
+    height: 700px;
+    width: 700px;
+}
 ```
