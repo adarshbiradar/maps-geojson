@@ -1,9 +1,6 @@
 # maps
 ## Geojsons of India and States, union territories of India
 
-checkout the maps ploted using these geojsons on https://www.coronaindia.ml/
-
-
 #### India map
 ![India map](https://github.com/adarshbiradar/maps/blob/master/etc/indiamap.png?raw=true)
 
